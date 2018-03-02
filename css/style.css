@@ -16,6 +16,8 @@ body {
 
 img {
     max-width: 100%;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -140,8 +142,6 @@ footer p {
 /*----- cover images -----*/
 
 .cover-image {
-    width: 100%;
-    height: 100%;
     padding-top: 3%; 
     padding-left: 4%;
     padding-right: 4%; 
