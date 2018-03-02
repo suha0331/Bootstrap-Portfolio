@@ -20,8 +20,8 @@ img {
 }
 
 #cover {
-    height: 538.22px;
-    width: 353.45px;
+    height: 100%;
+    width: 100%;
     float: left;
     background-image: url(../images/main/picutre1.jpg);
     background-repeat: no-repeat;
