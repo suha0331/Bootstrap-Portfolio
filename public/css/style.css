@@ -1,0 +1,644 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Ek Mukta";
+    height: 100%;
+    color: black;
+}
+
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#cover {
+
+    border: 0;
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/main/picture1.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    font-family: 'Quicksand', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+article {
+    width: 100%;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    padding-bottom: 2%;
+}
+
+p {
+    color: black;
+    font-family: "Ek Mukta";
+    letter-spacing: 0.5px;
+}
+
+
+article {
+    width: 100%;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.float-none {
+    float: none !important;
+}
+
+
+/*----- Logo coming soons -----*/
+
+.logo-image {
+    padding: 5%;
+    max-width: 55px;
+    height: auto;
+    float: left;
+}
+
+.logo-image:hover {
+    background-image: url(../images/icons/logo2.png);
+    background-repeat: none;
+}
+
+
+/*----- containers -----*/
+
+.body-container {
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 6%;
+}
+
+
+.center-container {
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: left;
+}
+
+.container-fluid {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+
+/*----- cover images -----*/
+
+.cover-image {
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+    border: 0;
+}
+
+.description {
+    float: left;
+    max-width: 100%;
+    margin: 2%;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+}
+
+
+/*----- About page -----*/
+
+.about {
+    max-width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.aboutText {
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+
+/* Remove margins and padding from the list, and add a black background color */
+
+ul.topnav li.icon {
+    display: none;
+}
+
+
+/*----- Menu Outline -----*/
+
+nav.menu {
+    width: 49.5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+ul.topnav:after {
+
+    clear: both;
+}
+
+.menu-wrap {
+    width: 49.5%;
+    padding: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+}
+
+
+.menu li {
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+}
+
+.menu a {
+    transition: all linear 0.15s;
+    color: black;
+}
+
+.menu li:hover>a,
+.menu .current-item>a {
+    color: #81DAF5;
+}
+
+.menu .arrow {
+    font-size: 0px;
+    line-height: 0%;
+}
+
+
+/*----- Top Level -----*/
+
+.menu>ul>li {
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+}
+
+.menu>ul>li>a {
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu>ul>li:hover>a,
+.menu>ul>.current-item>a {
+    background: #FAFAFA;
+}
+
+
+/*----- Bottom Level -----*/
+
+.menu li:hover .sub-menu {
+    z-index: 100;
+    opacity: 1;
+}
+
+.sub-menu {
+    width: 190px;
+    padding: 5px 0px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity linear 0.15s;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+.sub-menu li {
+    display: block;
+    font-size: 14px;
+}
+
+.sub-menu li a {
+    padding: 10px 30px;
+    display: block;
+    text-decoration: none;
+}
+
+.sub-menu li a:hover,
+.sub-menu .current-item a {
+    background: #FAFAFA;
+}
+
+#profilePic {
+    height: 350px;
+    width: 350px;
+    background-image: url(../images/about/suha_about.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*----- Footer -----*/
+
+footer h1 {
+    margin-bottom: 30px;
+}
+
+.site-footer {
+    height: auto;
+    padding-right: 125px;
+    padding-left: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.divider {
+    margin-top: 20px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+#info {
+    position: absolute;
+    font-size: 14px;
+    top: 35px;
+    left: 5px;
+}
+
+#email {
+    position: absolute;
+    font-size: 14px;
+    top: 35px;
+    left: 140px;
+}
+
+
+#iconone {
+    height: 30px;
+    width: 30px;
+    right: 5px;
+    top: 35px;
+    float: right;
+    background-image: url(../images/icons/flickr.png);
+    background-repeat: no-repeat;
+}
+
+
+#iconone:hover {
+    background-image: url(../images/icons/flickr2.png);
+}
+
+
+#icontwo {
+   display: inline-block;
+    height: 30px;
+    width: 30px;
+    float: right;
+    background-image: url(../images/icons/linkedin.png);
+    background-repeat: no-repeat;
+       justify-content: space-between;
+}
+
+#icontwo:hover {
+    background-image: url(../images/icons/linkedin2.png);
+}
+
+#iconthree {
+    height: 30px;
+    width: 30px;
+    right: 50px;
+    top: 35px;
+    float: right;
+    background-image: url(../images/icons/instagram.png);
+    background-repeat: no-repeat;
+}
+
+#iconthree:hover {
+    background-image: url(../images/icons/instagram2.png);
+}
+
+
+/* Mobile Screen Size Begin */
+
+@media handheld,
+screen and (max-width: 599px) {
+
+    /* Home Page Begin */
+    .allcontent {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #main-image {
+        margin: 0 1em;
+    }
+
+    nav.menu {
+        top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about {
+        padding-top: 8%;
+    }
+
+    #profilePic {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+
+    .cover-image {
+
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .description {
+        float: left;
+        max-width: 100%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+  
+    /* Home Page End */
+}
+
+@media only screen and (min-width: 599px) and (max-width: 750px) {
+
+    /* Home Page Begin */
+    .allcontent {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #main-image {
+        margin: 0 1em;
+    }
+
+    nav.menu {
+        top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #profilePic {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+
+    .about {
+        padding-top: 5%;
+    }
+
+
+
+    .cover-image {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .description {
+        float: left;
+        max-width: 100%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+}
+
+
+
+
+/* Tablet Screen Size Begin */
+
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+
+    .allcontent {
+        width: 60%;
+        position: relative;
+        top: 5em;
+        min-width: 600px;
+    }
+
+    #main-image {
+        margin: 1em 0em 0 1em;
+    }
+
+
+    nav.menu {
+        top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #profilePic {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+
+    .about {
+        padding-top: 3%;
+    }
+
+
+    .menu-wrap {
+        margin-left: 10%;
+        margin-right: auto;
+        z-index: 100;
+    }
+
+    .cover-image {
+        padding-bottom: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 0;
+    }
+
+    .description {
+        float: left;
+        max-width: 100%;
+        padding-left: 4%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /* Home Page Begin */
+    .allcontent {
+        width: 80%;
+        position: relative;
+        top: 5em;
+        padding: 21px;
+        min-width: 900px;
+    }
+
+    #main-image {
+        margin: 2em 1em 0 2em;
+    }
+
+
+    nav.menu {
+        top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-wrap {
+        margin-left: 10%;
+        margin-right: auto;
+        z-index: 100;
+    }
+
+    .cover-image {
+
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .description {
+        float: left;
+        max-width: 100%;
+        margin-top: 2%;
+        padding-left: 4%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+    /* Home Page End */
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+
+    .about {
+        padding-top: 2%;
+    }
+}
+
+@media handheld,
+screen and (max-width: 1280px) {
+
+    ul.topnav li:not(:first-child) {
+        display: none;
+    }
+
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+
+    nav.menu {
+        top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .menu-wrap {
+        margin-left: 10%;
+        margin-right: auto;
+        z-index: 100;
+    }
+
+    .cover-image {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .description {
+        float: left;
+        max-width: 100%;
+        margin-top: 0;
+        padding-left: 4%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
+    .site-footer {
+   padding-right: 5%;
+    padding-left: 5%;
+
+}
+}
